@@ -1,0 +1,51 @@
+*{
+    margin:0px;
+    padding:0px;
+     
+
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    width:100%;
+    background-image:linear-gradient(black,black);
+}
+.logo{
+    font-size:25px;
+    margin-left:80px;
+    color:white;
+    font-weight:500;
+    cursor:pointer;
+    letter-spacing:1.5px;
+}
+.nav-links li{
+    display:inline-block;
+    
+    font-size:20px;
+    padding:20px;
+    /* text-decoration:none; */
+    /* color:white; */
+    list-style:none;
+}
+    
+
+.nav-links li a:hover{
+    color:white;
+}
+.btn{
+    font-size:15px;
+    margin-right:40px;
+    padding:2px 15px;
+    border:none;
+    border-radius:10px;
+    background-color:red;
+    /* text-decoration:none; */
+    list-style:none;
+} 
+.btn a:hover{
+    color:white;
+}
+    
+    
+
